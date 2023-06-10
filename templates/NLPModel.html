@@ -65,6 +65,7 @@
                 method: "POST",
                 body: formData,
             });
+
             const data = await response.json();
             document.getElementById("score").textContent = data.score;
         });
