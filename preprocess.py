@@ -1,7 +1,4 @@
 import nltk
-
-
-
 #For preprocessing
 import nltk
 from nltk.corpus import stopwords
